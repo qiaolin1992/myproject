@@ -1,0 +1,5 @@
+alltext=open("E:\\code\\data\\四世同堂.txt",encoding='utf-8').read()
+#print(type(alltext))
+sortedcharset=sorted(set(alltext))
+char_indices=dict((c,i) for i ,c in enumerate(sortedcharset))
+#print(char_indices)
